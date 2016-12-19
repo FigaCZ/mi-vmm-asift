@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <h1>Comparsion #{{ cmp.id }}</h1>
+
+    <div class="text-xs-center">
+        <img src="http://localhost/~Figa/Compic/web/images/{{ cmp.name }}.png" class="img-thumbnail" />
+    </div>
+
+    <h2>Result</h2>
+    <div class="row">
+    {% for cmp in comparsions %}
+        <div class="col-md-3 text-center"><img src="http://localhost/~Figa/Compic/web/images/thumbs/{{ cmp.name }}.png" class="img-thumbnail" /><br />{{ cmp.ratio }}</div>
+
+    {% if loop.index%4 == 0 and loop.index != 0 %}
+    </div><div class="row">
+        {% endif %}
+    {% endfor %}
+    </div>
+
+
+    <h2>Stats</h2>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Operation</th>
+            <th>Duration</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="vertical-align:middle"><strong>Keys extraction</strong></td>
+                <td style="vertical-align:middle">{{ cmp.duration_keys|round }}s</td>
+            </tr>
+            <tr>
+                <td style="vertical-align:middle"><strong>Clustering</strong></td>
+                <td style="vertical-align:middle">{{ cmp.duration_clusters|round }}s</td>
+            </tr>
+            <tr>
+                <td style="vertical-align:middle"><strong>SQFD</strong></td>
+                <td style="vertical-align:middle">{{ cmp.duration|round }}s</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <div class="starter-template" style="margin-top: 100px;">
+        <h1>Upload</h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <input id="file-1" name="image" type="file" class="file" data-preview-file-type="image"/>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        $("#file-1").fileinput({
+            //uploadUrl: 'http://localhost/~Figa/Compic/web/app_dev.php/search/', // you must set a valid URL here else you will get an error
+            //allowedFileExtensions : ['jpg', 'png','gif'],
+            overwriteInitial: false,
+            maxFileSize: 10000,
+            maxFilesNum: 1,
+            allowedFileTypes: ['image']
+        });
+
+    </script>
+{% endblock %}

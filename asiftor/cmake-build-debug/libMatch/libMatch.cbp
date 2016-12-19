@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libMatch"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\io_png\;CMake Files\io_png\libs\;CMake Files\io_png\libs\zlib\;CMake Files\io_png\libs\png\;CMake Files\libMatch\;CMake Files\libNumerics\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Match">
+				<Option output="/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch/libMatch.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch/Makefile&quot;  VERBOSE=1 Match"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Match/fast">
+				<Option output="/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch/libMatch.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch/Makefile&quot;  VERBOSE=1 Match/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Figa/ClionProjects/asiftor/cmake-build-debug/libMatch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Figa/ClionProjects/asiftor/libMatch/match.cpp">
+			<Option target="Match"/>
+		</Unit>
+		<Unit filename="/Users/Figa/ClionProjects/asiftor/libMatch/match.h">
+			<Option target="Match"/>
+		</Unit>
+		<Unit filename="/Users/Figa/ClionProjects/asiftor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Figa/ClionProjects/asiftor/io_png/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\io_png\"/>
+		</Unit>
+		<Unit filename="/Users/Figa/ClionProjects/asiftor/io_png/libs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\io_png\libs\"/>
+		</Unit>
+		<Unit filename="/Users/Figa/ClionProjects/asiftor/io_png/libs/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\io_png\libs\zlib\"/>
+		</Unit>
+		<Unit filename="/Users/Figa/ClionProjects/asiftor/io_png/libs/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\io_png\libs\zlib\"/>
+		</Unit>
+		<Unit filename="/Users/Figa/ClionProjects/asiftor/io_png/libs/png/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\io_png\libs\png\"/>
+		</Unit>
+		<Unit filename="/Users/Figa/ClionProjects/asiftor/io_png/libs/png/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\io_png\libs\png\"/>
+		</Unit>
+		<Unit filename="/Users/Figa/ClionProjects/asiftor/libMatch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libMatch\"/>
+		</Unit>
+		<Unit filename="/Users/Figa/ClionProjects/asiftor/libMatch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libMatch\"/>
+		</Unit>
+		<Unit filename="/Users/Figa/ClionProjects/asiftor/libNumerics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libNumerics\"/>
+		</Unit>
+		<Unit filename="/Users/Figa/ClionProjects/asiftor/libNumerics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libNumerics\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

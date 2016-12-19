@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+        <h1>Comparsions</h1>
+        <p>List of processed comaprsions</p>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Image</th>
+                <th>Duration</th>
+                <th>Date</th>
+                <th>Level</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for cmp in comparsions %}
+                <tr>
+                    <td style="vertical-align:middle"><a href="{{ path('comparsion', {'id':cmp.id}) }}"><img src="http://localhost/~Figa/Compic/web/images/thumbs/{{ cmp.name }}.png" class="img-thumbnail"></td>
+                    <td style="vertical-align:middle">{{ cmp.duration|round }}s</td>
+                    <td style="vertical-align:middle">{{ cmp.time|date("j. n. H:i") }}</td>
+                    <td style="vertical-align:middle">{{ cmp.level }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+{% endblock %}

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Figa/ClionProjects/asiftor/libMatch/match.cpp
+match.h
+/Users/Figa/ClionProjects/asiftor/libMatch/match.h
+fstream
+-
+sstream
+-
+
+/Users/Figa/ClionProjects/asiftor/libMatch/match.h
+vector
+-
+
