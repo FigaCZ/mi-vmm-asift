@@ -1,4 +1,6 @@
-Compic2
+Compic
 =======
 
-A Symfony project created on November 21, 2016, 8:54 pm.
+C++ sources under asifator/src
+
+Report in root glazafil_mi_vmm.pdf
